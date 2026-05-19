@@ -1,5 +1,6 @@
 import os
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+os.environ["TRANSFORMERS_OFFLINE"] = "0"  # 关闭离线模式
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
