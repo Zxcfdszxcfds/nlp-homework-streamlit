@@ -1,5 +1,5 @@
 import os
-shturl.cc/["HF_ENDPOINT"] = "shturl.cc/xSEwulEkGM6"
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
