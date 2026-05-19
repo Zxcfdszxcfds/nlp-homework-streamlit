@@ -1,3 +1,5 @@
+import os
+shturl.cc/["HF_ENDPOINT"] = "shturl.cc/9uH6TuAbSN3"
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
